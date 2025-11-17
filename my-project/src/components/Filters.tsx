@@ -26,20 +26,20 @@ const Filters: React.FC<Props> = ({
   locations,
 }) => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 mb-6">
+    <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 mb-8">
       {/* Search */}
       <input
         value={search}
         onChange={(e) => setSearch(e.target.value)}
         placeholder="Search company..."
-        className="border rounded p-2"
+        className="w-full rounded-xl border border-gray-300 bg-white p-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm transition"
       />
 
       {/* Industry */}
       <select
         value={industry}
         onChange={(e) => setIndustry(e.target.value)}
-        className="border rounded p-2"
+        className="w-full rounded-xl border border-gray-300 bg-white p-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm transition"
       >
         <option value="">All Industries</option>
         {industries.map((ind) => (
@@ -53,7 +53,7 @@ const Filters: React.FC<Props> = ({
       <select
         value={location}
         onChange={(e) => setLocation(e.target.value)}
-        className="border rounded p-2"
+        className="w-full rounded-xl border border-gray-300 bg-white p-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm transition"
       >
         <option value="">All Locations</option>
         {locations.map((loc) => (
@@ -67,7 +67,7 @@ const Filters: React.FC<Props> = ({
       <select
         value={sortOrder}
         onChange={(e) => setSortOrder(e.target.value as "asc" | "desc")}
-        className="border rounded p-2"
+        className="w-full rounded-xl border border-gray-300 bg-white p-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm transition"
       >
         <option value="asc">Sort: A → Z</option>
         <option value="desc">Sort: Z → A</option>
