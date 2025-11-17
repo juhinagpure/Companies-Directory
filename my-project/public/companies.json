@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "TechX",
+    "industry": "Software",
+    "location": "Hyderabad",
+    "employees": 120,
+    "website": "https://techx.com"
+  },
+  {
+    "id": 2,
+    "name": "FoodNest",
+    "industry": "Food",
+    "location": "Mumbai",
+    "employees": 80,
+    "website": "https://foodnest.in"
+  },
+  {
+    "id": 3,
+    "name": "FinPro",
+    "industry": "Finance",
+    "location": "Bangalore",
+    "employees": 200,
+    "website": "https://finpro.com"
+  },
+  {
+    "id": 4,
+    "name": "EduPlus",
+    "industry": "Education",
+    "location": "Delhi",
+    "employees": 50,
+    "website": "https://eduplus.edu"
+  },
+  {
+    "id": 5,
+    "name": "MediCore",
+    "industry": "Healthcare",
+    "location": "Chennai",
+    "employees": 95,
+    "website": "https://medicore.in"
+  },
+  {
+    "id": 6,
+    "name": "AutoMax",
+    "industry": "Automobile",
+    "location": "Pune",
+    "employees": 160,
+    "website": "https://automax.com"
+  },
+  {
+    "id": 7,
+    "name": "BuildMate",
+    "industry": "Construction",
+    "location": "Hyderabad",
+    "employees": 300,
+    "website": "https://buildmate.in"
+  },
+  {
+    "id": 8,
+    "name": "EcoGreen",
+    "industry": "Energy",
+    "location": "Kolkata",
+    "employees": 120,
+    "website": "https://ecogreen.io"
+  },
+  {
+    "id": 9,
+    "name": "TravelBee",
+    "industry": "Travel",
+    "location": "Mumbai",
+    "employees": 45,
+    "website": "https://travelbee.co"
+  },
+  {
+    "id": 10,
+    "name": "ShopifyHub",
+    "industry": "E-Commerce",
+    "location": "Delhi",
+    "employees": 250,
+    "website": "https://shopifyhub.com"
+  }
+]
