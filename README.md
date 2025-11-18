@@ -1,73 +1,89 @@
-# React + TypeScript + Vite
+import { motion } from "framer-motion";
+import React from "react";
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+const README = () => {
+return (
+<motion.div
+className="max-w-4xl mx-auto p-6 bg-gray-50 rounded-xl shadow-lg"
+initial={{ opacity: 0, y: 20 }}
+animate={{ opacity: 1, y: 0 }}
+transition={{ duration: 0.8, ease: "easeOut" }} >
+<motion.h1
+className="text-4xl font-bold mb-4 text-center text-blue-700"
+whileHover={{ scale: 1.05 }} >
+Companies Directory
+</motion.h1>
 
-Currently, two official plugins are available:
+      <p className="text-gray-700 mb-4">
+        A modern, responsive web application showcasing a list of companies
+        with search, filters, pagination, and animated cards. Built with{" "}
+        <strong>React</strong>, <strong>Tailwind CSS</strong>, and{" "}
+        <strong>Framer Motion</strong> for smooth UI interactions.
+      </p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+      <hr className="my-4 border-gray-300" />
 
-## React Compiler
+      <motion.h2
+        className="text-2xl font-semibold mb-2 text-blue-600"
+        whileHover={{ x: 5 }}
+      >
+        Features
+      </motion.h2>
+      <ul className="list-disc list-inside text-gray-700 mb-4 space-y-1">
+        <li>Responsive <strong>card and table views</strong> for company listings.</li>
+        <li><strong>Search</strong> companies by name.</li>
+        <li>Filter by <strong>industry</strong> and <strong>location</strong>.</li>
+        <li><strong>Pagination</strong> for large datasets.</li>
+        <li>Animated <strong>cards</strong> with hover effects using <strong>Framer Motion</strong>.</li>
+        <li><strong>Visit Website</strong> links open company websites in a new tab.</li>
+        <li>Professional gradient card styling with soft, neutral background.</li>
+      </ul>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+      <hr className="my-4 border-gray-300" />
 
-## Expanding the ESLint configuration
+      <motion.h2
+        className="text-2xl font-semibold mb-2 text-blue-600"
+        whileHover={{ x: 5 }}
+      >
+        Technologies Used
+      </motion.h2>
+      <ul className="list-disc list-inside text-gray-700 mb-4 space-y-1">
+        <li><strong>React.js</strong> – Frontend library.</li>
+        <li><strong>TypeScript</strong> – Type-safe development.</li>
+        <li><strong>Tailwind CSS</strong> – Utility-first styling framework.</li>
+        <li><strong>Framer Motion</strong> – Animations for hover and transitions.</li>
+        <li><strong>Lucide React</strong> – Icons for UI enhancements.</li>
+      </ul>
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+      <hr className="my-4 border-gray-300" />
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+      <motion.h2
+        className="text-2xl font-semibold mb-2 text-blue-600"
+        whileHover={{ x: 5 }}
+      >
+        Project Structure
+      </motion.h2>
+      <pre className="bg-gray-100 p-4 rounded-lg text-gray-800 overflow-x-auto">
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+{`src/
+├─ components/
+│  ├─ CompanyCard.tsx # Individual card component with animations
+│  ├─ CompanyList.tsx # Card & table views + toggle
+│  ├─ Filters.tsx # Search and filter functionality
+│  ├─ Pagination.tsx # Pagination controls
+├─ api/
+│  └─ useFetch.ts # Custom hook to fetch companies.json
+├─ types/
+│  └─ Company.ts # Type definitions
+├─ utils/
+│  └─ sortCompanies.ts # Sorting logic
+├─ App.tsx # Main app component
+└─ index.css # Tailwind & custom fonts
+public/
+└─ companies.json # Sample data of 50 companies`}
+</pre>
+</motion.div>
+);
+};
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+export default README;
