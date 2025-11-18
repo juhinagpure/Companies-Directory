@@ -1,82 +1,403 @@
 [
   {
     "id": 1,
-    "name": "TechX",
+    "name": "Microsoft",
     "industry": "Software",
     "location": "Hyderabad",
     "employees": 120,
-    "website": "https://techx.com"
+    "website": "https://www.microsoft.com"
   },
   {
     "id": 2,
-    "name": "FoodNest",
+    "name": "Zomato",
     "industry": "Food",
     "location": "Mumbai",
     "employees": 80,
-    "website": "https://foodnest.in"
+    "website": "https://www.zomato.com"
   },
   {
     "id": 3,
-    "name": "FinPro",
+    "name": "ICICI Bank",
     "industry": "Finance",
     "location": "Bangalore",
     "employees": 200,
-    "website": "https://finpro.com"
+    "website": "https://www.icicibank.com"
   },
   {
     "id": 4,
-    "name": "EduPlus",
+    "name": "Khan Academy",
     "industry": "Education",
     "location": "Delhi",
     "employees": 50,
-    "website": "https://eduplus.edu"
+    "website": "https://www.khanacademy.org"
   },
   {
     "id": 5,
-    "name": "MediCore",
+    "name": "Practo",
     "industry": "Healthcare",
     "location": "Chennai",
     "employees": 95,
-    "website": "https://medicore.in"
+    "website": "https://www.practo.com"
   },
   {
     "id": 6,
-    "name": "AutoMax",
+    "name": "Tata Motors",
     "industry": "Automobile",
     "location": "Pune",
     "employees": 160,
-    "website": "https://automax.com"
+    "website": "https://www.tatamotors.com"
   },
   {
     "id": 7,
-    "name": "BuildMate",
+    "name": "Larsen & Toubro",
     "industry": "Construction",
     "location": "Hyderabad",
     "employees": 300,
-    "website": "https://buildmate.in"
+    "website": "https://www.larsentoubro.com"
   },
   {
     "id": 8,
-    "name": "EcoGreen",
+    "name": "Reliance Energy",
     "industry": "Energy",
     "location": "Kolkata",
     "employees": 120,
-    "website": "https://ecogreen.io"
+    "website": "https://www.relianceenergy.in"
   },
   {
     "id": 9,
-    "name": "TravelBee",
+    "name": "MakeMyTrip",
     "industry": "Travel",
     "location": "Mumbai",
     "employees": 45,
-    "website": "https://travelbee.co"
+    "website": "https://www.makemytrip.com"
   },
   {
     "id": 10,
-    "name": "ShopifyHub",
+    "name": "Flipkart",
     "industry": "E-Commerce",
     "location": "Delhi",
     "employees": 250,
-    "website": "https://shopifyhub.com"
+    "website": "https://www.flipkart.com"
+  },
+  {
+    "id": 11,
+    "name": "Oracle",
+    "industry": "Software",
+    "location": "Pune",
+    "employees": 90,
+    "website": "https://www.oracle.com"
+  },
+  {
+    "id": 12,
+    "name": "Swiggy",
+    "industry": "Food",
+    "location": "Ahmedabad",
+    "employees": 130,
+    "website": "https://www.swiggy.com"
+  },
+  {
+    "id": 13,
+    "name": "HDFC Bank",
+    "industry": "Finance",
+    "location": "Mumbai",
+    "employees": 350,
+    "website": "https://www.hdfcbank.com"
+  },
+  {
+    "id": 14,
+    "name": "Coursera",
+    "industry": "Education",
+    "location": "Bangalore",
+    "employees": 70,
+    "website": "https://www.coursera.org"
+  },
+  {
+    "id": 15,
+    "name": "Apollo Pharmacy",
+    "industry": "Healthcare",
+    "location": "Delhi",
+    "employees": 180,
+    "website": "https://www.apollopharmacy.in"
+  },
+
+  {
+    "id": 16,
+    "name": "Mahindra Motors",
+    "industry": "Automobile",
+    "location": "Chandigarh",
+    "employees": 140,
+    "website": "https://www.mahindra.com"
+  },
+  {
+    "id": 17,
+    "name": "Godrej Properties",
+    "industry": "Construction",
+    "location": "Kolkata",
+    "employees": 210,
+    "website": "https://www.godrejproperties.com"
+  },
+  {
+    "id": 18,
+    "name": "ACES Power",
+    "industry": "Energy",
+    "location": "Hyderabad",
+    "employees": 115,
+    "website": "https://www.acespower.com"
+  },
+  {
+    "id": 19,
+    "name": "Yatra",
+    "industry": "Travel",
+    "location": "Goa",
+    "employees": 60,
+    "website": "https://www.yatra.com"
+  },
+  {
+    "id": 20,
+    "name": "Amazon India",
+    "industry": "E-Commerce",
+    "location": "Chennai",
+    "employees": 270,
+    "website": "https://www.amazon.in"
+  },
+  {
+    "id": 21,
+    "name": "TCS",
+    "industry": "Software",
+    "location": "Noida",
+    "employees": 110,
+    "website": "https://www.tcs.com"
+  },
+  {
+    "id": 22,
+    "name": "Nestle India",
+    "industry": "Food",
+    "location": "Pune",
+    "employees": 40,
+    "website": "https://www.nestle.in"
+  },
+  {
+    "id": 23,
+    "name": "Axis Bank",
+    "industry": "Finance",
+    "location": "Delhi",
+    "employees": 260,
+    "website": "https://www.axisbank.com"
+  },
+  {
+    "id": 24,
+    "name": "Udemy",
+    "industry": "Education",
+    "location": "Hyderabad",
+    "employees": 95,
+    "website": "https://www.udemy.com"
+  },
+  {
+    "id": 25,
+    "name": "Pristyn Care",
+    "industry": "Healthcare",
+    "location": "Kolkata",
+    "employees": 210,
+    "website": "https://www.pristyncare.com"
+  },
+  {
+    "id": 26,
+    "name": "Ola",
+    "industry": "Automobile",
+    "location": "Bangalore",
+    "employees": 190,
+    "website": "https://www.olacabs.com"
+  },
+  {
+    "id": 27,
+    "name": "Sobha Ltd",
+    "industry": "Construction",
+    "location": "Delhi",
+    "employees": 320,
+    "website": "https://www.sobha.com"
+  },
+  {
+    "id": 28,
+    "name": "Tata Power",
+    "industry": "Energy",
+    "location": "Chennai",
+    "employees": 150,
+    "website": "https://www.tatapower.com"
+  },
+  {
+    "id": 29,
+    "name": "GoAir",
+    "industry": "Travel",
+    "location": "Mumbai",
+    "employees": 55,
+    "website": "https://www.goair.in"
+  },
+  {
+    "id": 30,
+    "name": "Snapdeal",
+    "industry": "E-Commerce",
+    "location": "Bangalore",
+    "employees": 300,
+    "website": "https://www.snapdeal.com"
+  },
+  {
+    "id": 31,
+    "name": "Infosys",
+    "industry": "Software",
+    "location": "Kolkata",
+    "employees": 85,
+    "website": "https://www.infosys.com"
+  },
+  {
+    "id": 32,
+    "name": "BigBasket",
+    "industry": "Food",
+    "location": "Jaipur",
+    "employees": 75,
+    "website": "https://www.bigbasket.com"
+  },
+  {
+    "id": 33,
+    "name": "Indian Bank",
+    "industry": "Finance",
+    "location": "Chennai",
+    "employees": 230,
+    "website": "https://www.indianbank.in"
+  },
+  {
+    "id": 34,
+    "name": "edX",
+    "industry": "Education",
+    "location": "Pune",
+    "employees": 55,
+    "website": "https://www.edx.org"
+  },
+  {
+    "id": 35,
+    "name": "Medlife",
+    "industry": "Healthcare",
+    "location": "Ahmedabad",
+    "employees": 130,
+    "website": "https://www.medlife.com"
+  },
+  {
+    "id": 36,
+    "name": "Uber",
+    "industry": "Automobile",
+    "location": "Hyderabad",
+    "employees": 175,
+    "website": "https://www.uber.com"
+  },
+  {
+    "id": 37,
+    "name": "Larsen & Toubro",
+    "industry": "Construction",
+    "location": "Pune",
+    "employees": 280,
+    "website": "https://www.larsentoubro.com"
+  },
+  {
+    "id": 38,
+    "name": "Adani",
+    "industry": "Energy",
+    "location": "Delhi",
+    "employees": 125,
+    "website": "https://www.adani.com"
+  },
+  {
+    "id": 39,
+    "name": "MakeMyTrip",
+    "industry": "Travel",
+    "location": "Kochi",
+    "employees": 48,
+    "website": "https://www.makemytrip.com"
+  },
+  {
+    "id": 40,
+    "name": "Flipkart",
+    "industry": "E-Commerce",
+    "location": "Hyderabad",
+    "employees": 260,
+    "website": "https://www.flipkart.com"
+  },
+  {
+    "id": 41,
+    "name": "Wipro",
+    "industry": "Software",
+    "location": "Indore",
+    "employees": 105,
+    "website": "https://www.wipro.com"
+  },
+  {
+    "id": 42,
+    "name": "Swiggy",
+    "industry": "Food",
+    "location": "Surat",
+    "employees": 68,
+    "website": "https://www.swiggy.com"
+  },
+  {
+    "id": 43,
+    "name": "HDFC Bank",
+    "industry": "Finance",
+    "location": "Nagpur",
+    "employees": 195,
+    "website": "https://www.hdfcbank.com"
+  },
+  {
+    "id": 44,
+    "name": "Udemy",
+    "industry": "Education",
+    "location": "Lucknow",
+    "employees": 45,
+    "website": "https://www.udemy.com"
+  },
+  {
+    "id": 45,
+    "name": "Practo",
+    "industry": "Healthcare",
+    "location": "Vizag",
+    "employees": 160,
+    "website": "https://www.practo.com"
+  },
+  {
+    "id": 46,
+    "name": "Tata Motors",
+    "industry": "Automobile",
+    "location": "Bhopal",
+    "employees": 185,
+    "website": "https://www.tatamotors.com"
+  },
+  {
+    "id": 47,
+    "name": "Sobha Ltd",
+    "industry": "Construction",
+    "location": "Jaipur",
+    "employees": 290,
+    "website": "https://www.sobha.com"
+  },
+  {
+    "id": 48,
+    "name": "Reliance Energy",
+    "industry": "Energy",
+    "location": "Noida",
+    "employees": 135,
+    "website": "https://www.relianceenergy.in"
+  },
+  {
+    "id": 49,
+    "name": "Yatra",
+    "industry": "Travel",
+    "location": "Delhi",
+    "employees": 52,
+    "website": "https://www.yatra.com"
+  },
+  {
+    "id": 50,
+    "name": "Amazon India",
+    "industry": "E-Commerce",
+    "location": "Pune",
+    "employees": 310,
+    "website": "https://www.amazon.in"
   }
 ]
