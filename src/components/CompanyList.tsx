@@ -72,7 +72,7 @@ const CompanyList: React.FC<Props> = ({ companies }) => {
       {view === "table" && (
         <div className="overflow-x-auto mt-4">
           <table className="w-full rounded-2xl overflow-hidden shadow-lg">
-            <thead className="bg-gradient-to-r from-blue-50 to-blue-100 text-sm text-gray-700">
+            <thead className="bg-linear-to-r from-blue-50 to-blue-100 text-sm text-gray-700">
               <tr>
                 <th className="p-3 text-left">Name</th>
                 <th className="p-3 text-left">Industry</th>
